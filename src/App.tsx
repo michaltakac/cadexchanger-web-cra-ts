@@ -1,8 +1,10 @@
 import React from 'react';
+import cadex from "@cadexchanger/web-toolkit";
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log(cadex)
   return (
     <div className="App">
       <header className="App-header">
